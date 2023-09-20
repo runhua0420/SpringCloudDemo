@@ -1,0 +1,5 @@
+# Project exclude paths
+/microservicecloud-api/target/
+/microservicecloud-consumer-dept-8080/target/
+/microservicecloud-eureka-7001/target/
+/microservicecloud-provider-dept-8001/target/

@@ -1,0 +1,11 @@
+server:
+  port: 7001
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: true #可以进行自我注册，就是把当前Eureka项目注册Eureka页面中
+    fetchRegistry: false #把当前Eureka页面当成“注册中心页面”
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
